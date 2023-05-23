@@ -30,3 +30,4 @@ Notice: seed is important, because it will create the first admin user for you.
 - goto your browser and croscheck everything what you have done
 
 ### happy coding
+Test

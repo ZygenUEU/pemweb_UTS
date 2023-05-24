@@ -108,23 +108,23 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id'    => 25,
-                'title' => 'pasienrumahsakit_create',
+                'title' => 'pasien_rumah_sakit_create',
             ],
             [
                 'id'    => 26,
-                'title' => 'pasienrumahsakit_edit',
+                'title' => 'pasien_rumah_sakit_edit',
             ],
             [
                 'id'    => 27,
-                'title' => 'pasienrumahsakit_show',
+                'title' => 'pasien_rumah_sakit_show',
             ],
             [
                 'id'    => 28,
-                'title' => 'pasienrumahsakit_delete',
+                'title' => 'pasien_rumah_sakit_delete',
             ],
             [
                 'id'    => 29,
-                'title' => 'pasienrumahsakit_access',
+                'title' => 'pasien_rumah_sakit_access',
             ],
         ];
 

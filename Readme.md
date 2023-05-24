@@ -1,5 +1,6 @@
-Nama : Lamda Pratama Aprilliansyah
-NIM : 20210801056
+Nama : Lamda Pratama Aprilliansyah <br/>
+NIM : 20210801056 <br/>
+Sutdi Kasus : Pasien Rumah Sakit <br/>
 
 # Deployment 
 - Run docker-compose up -d --build wait for finish.

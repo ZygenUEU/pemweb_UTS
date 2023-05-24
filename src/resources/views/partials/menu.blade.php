@@ -79,6 +79,28 @@
                 </ul>
             </li>
         @endcan
+        @can('uts_access')
+            <li class="c-sidebar-nav-dropdown {{ request()->is("admin/pasien_rumah_sakit*") ? "c-show" : "" }}">
+                <a class="c-sidebar-nav-dropdown-toggle" href="#">
+                    <i class="fa fa-reguler fa-pen-square c-sidebar-nav-icon">
+
+                    </i>
+                    {{ trans('cruds.uts.title') }}
+                </a>
+                <ul class="c-sidebar-nav-dropdown-items">
+                    @can('pasien_rumah_sakit_access')
+                        <li class="c-sidebar-nav-item">
+                            <a href="{{ route("admin.pasien_rumah_sakits.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/pasien_rumah_sakit") || request()->is("admin/pasien_rumah_sakit/*") ? "c-active" : "" }}">
+                                <i class="fa fa-solid fa-user c-sidebar-nav-icon">
+
+                                </i>
+                                {{ trans('cruds.pasien_rumah_sakit.title') }}
+                            </a>
+                        </li>
+                    @endcan
+                </ul>
+            </li>
+        @endcan
         @if(file_exists(app_path('Http/Controllers/Auth/ChangePasswordController.php')))
             @can('profile_password_edit')
                 <li class="c-sidebar-nav-item">

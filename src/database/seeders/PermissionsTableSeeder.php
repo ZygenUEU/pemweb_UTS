@@ -102,6 +102,30 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => 23,
                 'title' => 'profile_password_edit',
             ],
+            [
+                'id'    => 24,
+                'title' => 'uts_access',
+            ],
+            [
+                'id'    => 25,
+                'title' => 'pasienrumahsakit_create',
+            ],
+            [
+                'id'    => 26,
+                'title' => 'pasienrumahsakit_edit',
+            ],
+            [
+                'id'    => 27,
+                'title' => 'pasienrumahsakit_show',
+            ],
+            [
+                'id'    => 28,
+                'title' => 'pasienrumahsakit_delete',
+            ],
+            [
+                'id'    => 29,
+                'title' => 'pasienrumahsakit_access',
+            ],
         ];
 
         Permission::insert($permissions);
